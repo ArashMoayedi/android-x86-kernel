@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/vt8623fb.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/fbdev/vt8623fb.ko drivers/video/fbdev/vt8623fb.o drivers/video/fbdev/vt8623fb.mod.o

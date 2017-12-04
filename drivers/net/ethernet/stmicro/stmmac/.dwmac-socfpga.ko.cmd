@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/stmicro/stmmac/dwmac-socfpga.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/ethernet/stmicro/stmmac/dwmac-socfpga.ko drivers/net/ethernet/stmicro/stmmac/dwmac-socfpga.o drivers/net/ethernet/stmicro/stmmac/dwmac-socfpga.mod.o

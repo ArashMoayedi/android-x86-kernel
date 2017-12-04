@@ -1040,4 +1040,10 @@ config GPIO_VIPERBOARD
 
 endmenu
 
+config HELLO_OS
+	tristate "Hello OS"
+	depends on X86
+	default y
+	help
+		Select to disbale Hello OS module(default ON)
 endif

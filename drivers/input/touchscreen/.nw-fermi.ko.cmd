@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/nw-fermi.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/touchscreen/nw-fermi.ko drivers/input/touchscreen/nw-fermi.o drivers/input/touchscreen/nw-fermi.mod.o

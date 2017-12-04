@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/matrox/i2c-matroxfb.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/fbdev/matrox/i2c-matroxfb.ko drivers/video/fbdev/matrox/i2c-matroxfb.o drivers/video/fbdev/matrox/i2c-matroxfb.mod.o

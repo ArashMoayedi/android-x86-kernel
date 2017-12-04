@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/stmicro/stmmac/dwmac-ipq806x.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/ethernet/stmicro/stmmac/dwmac-ipq806x.ko drivers/net/ethernet/stmicro/stmmac/dwmac-ipq806x.o drivers/net/ethernet/stmicro/stmmac/dwmac-ipq806x.mod.o

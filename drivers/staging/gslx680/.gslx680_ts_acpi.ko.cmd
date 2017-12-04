@@ -1,0 +1,1 @@
+cmd_drivers/staging/gslx680/gslx680_ts_acpi.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/gslx680/gslx680_ts_acpi.ko drivers/staging/gslx680/gslx680_ts_acpi.o drivers/staging/gslx680/gslx680_ts_acpi.mod.o

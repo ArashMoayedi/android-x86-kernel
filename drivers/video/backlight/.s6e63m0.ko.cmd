@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/s6e63m0.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/backlight/s6e63m0.ko drivers/video/backlight/s6e63m0.o drivers/video/backlight/s6e63m0.mod.o

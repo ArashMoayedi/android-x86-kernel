@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/aty/atyfb.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/fbdev/aty/atyfb.ko drivers/video/fbdev/aty/atyfb.o drivers/video/fbdev/aty/atyfb.mod.o

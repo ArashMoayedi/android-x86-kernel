@@ -1,0 +1,1 @@
+cmd_drivers/firmware/efi/efi-pstore.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/firmware/efi/efi-pstore.ko drivers/firmware/efi/efi-pstore.o drivers/firmware/efi/efi-pstore.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/gpio_tilt_polled.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/misc/gpio_tilt_polled.ko drivers/input/misc/gpio_tilt_polled.o drivers/input/misc/gpio_tilt_polled.mod.o

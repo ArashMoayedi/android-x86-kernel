@@ -1,0 +1,2 @@
+drivers/net/ethernet/qlogic/qed/qed.ko
+drivers/net/ethernet/qlogic/qed/qed_cxt.o drivers/net/ethernet/qlogic/qed/qed_dev.o drivers/net/ethernet/qlogic/qed/qed_hw.o drivers/net/ethernet/qlogic/qed/qed_init_fw_funcs.o drivers/net/ethernet/qlogic/qed/qed_init_ops.o drivers/net/ethernet/qlogic/qed/qed_int.o drivers/net/ethernet/qlogic/qed/qed_main.o drivers/net/ethernet/qlogic/qed/qed_mcp.o drivers/net/ethernet/qlogic/qed/qed_sp_commands.o drivers/net/ethernet/qlogic/qed/qed_spq.o drivers/net/ethernet/qlogic/qed/qed_l2.o

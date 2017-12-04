@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/macmodes.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/fbdev/macmodes.ko drivers/video/fbdev/macmodes.o drivers/video/fbdev/macmodes.mod.o

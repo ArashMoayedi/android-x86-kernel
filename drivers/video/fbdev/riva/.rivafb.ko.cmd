@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/riva/rivafb.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/fbdev/riva/rivafb.ko drivers/video/fbdev/riva/rivafb.o drivers/video/fbdev/riva/rivafb.mod.o

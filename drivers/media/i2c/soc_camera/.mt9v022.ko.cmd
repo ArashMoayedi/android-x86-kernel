@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/soc_camera/mt9v022.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/i2c/soc_camera/mt9v022.ko drivers/media/i2c/soc_camera/mt9v022.o drivers/media/i2c/soc_camera/mt9v022.mod.o

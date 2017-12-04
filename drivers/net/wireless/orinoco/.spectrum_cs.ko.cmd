@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/orinoco/spectrum_cs.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/orinoco/spectrum_cs.ko drivers/net/wireless/orinoco/spectrum_cs.o drivers/net/wireless/orinoco/spectrum_cs.mod.o
