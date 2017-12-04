@@ -1,1 +1,0 @@
-cmd_drivers/media/usb/dvb-usb/dvb-usb-gp8psk.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/dvb-usb/dvb-usb-gp8psk.ko drivers/media/usb/dvb-usb/dvb-usb-gp8psk.o drivers/media/usb/dvb-usb/dvb-usb-gp8psk.mod.o

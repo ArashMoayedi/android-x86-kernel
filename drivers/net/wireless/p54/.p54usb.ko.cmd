@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/p54/p54usb.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/p54/p54usb.ko drivers/net/wireless/p54/p54usb.o drivers/net/wireless/p54/p54usb.mod.o

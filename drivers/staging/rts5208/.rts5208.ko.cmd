@@ -1,1 +1,0 @@
-cmd_drivers/staging/rts5208/rts5208.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/rts5208/rts5208.ko drivers/staging/rts5208/rts5208.o drivers/staging/rts5208/rts5208.mod.o

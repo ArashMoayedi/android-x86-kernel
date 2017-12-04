@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/savage/savage.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/gpu/drm/savage/savage.ko drivers/gpu/drm/savage/savage.o drivers/gpu/drm/savage/savage.mod.o

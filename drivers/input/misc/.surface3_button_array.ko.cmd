@@ -1,1 +1,0 @@
-cmd_drivers/input/misc/surface3_button_array.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/misc/surface3_button_array.ko drivers/input/misc/surface3_button_array.o drivers/input/misc/surface3_button_array.mod.o

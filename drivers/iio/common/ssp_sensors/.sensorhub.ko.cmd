@@ -1,1 +1,0 @@
-cmd_drivers/iio/common/ssp_sensors/sensorhub.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/common/ssp_sensors/sensorhub.ko drivers/iio/common/ssp_sensors/sensorhub.o drivers/iio/common/ssp_sensors/sensorhub.mod.o

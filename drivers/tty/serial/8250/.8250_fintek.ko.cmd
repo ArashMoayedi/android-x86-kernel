@@ -1,1 +1,0 @@
-cmd_drivers/tty/serial/8250/8250_fintek.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/tty/serial/8250/8250_fintek.ko drivers/tty/serial/8250/8250_fintek.o drivers/tty/serial/8250/8250_fintek.mod.o

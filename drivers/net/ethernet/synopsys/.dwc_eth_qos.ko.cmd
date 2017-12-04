@@ -1,1 +1,0 @@
-cmd_drivers/net/ethernet/synopsys/dwc_eth_qos.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/ethernet/synopsys/dwc_eth_qos.ko drivers/net/ethernet/synopsys/dwc_eth_qos.o drivers/net/ethernet/synopsys/dwc_eth_qos.mod.o

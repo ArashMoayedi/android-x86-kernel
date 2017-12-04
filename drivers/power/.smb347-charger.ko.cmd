@@ -1,1 +1,0 @@
-cmd_drivers/power/smb347-charger.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/power/smb347-charger.ko drivers/power/smb347-charger.o drivers/power/smb347-charger.mod.o

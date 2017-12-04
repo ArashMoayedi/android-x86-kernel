@@ -1,1 +1,0 @@
-cmd_drivers/input/touchscreen/tsc200x-core.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/touchscreen/tsc200x-core.ko drivers/input/touchscreen/tsc200x-core.o drivers/input/touchscreen/tsc200x-core.mod.o

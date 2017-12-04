@@ -1,1 +1,0 @@
-cmd_drivers/power/surface3_power.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/power/surface3_power.ko drivers/power/surface3_power.o drivers/power/surface3_power.mod.o

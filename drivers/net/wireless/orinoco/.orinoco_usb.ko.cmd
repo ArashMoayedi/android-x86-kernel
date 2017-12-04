@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/orinoco/orinoco_usb.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/orinoco/orinoco_usb.ko drivers/net/wireless/orinoco/orinoco_usb.o drivers/net/wireless/orinoco/orinoco_usb.mod.o

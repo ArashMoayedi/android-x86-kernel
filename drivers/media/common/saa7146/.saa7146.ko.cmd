@@ -1,1 +1,0 @@
-cmd_drivers/media/common/saa7146/saa7146.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/common/saa7146/saa7146.ko drivers/media/common/saa7146/saa7146.o drivers/media/common/saa7146/saa7146.mod.o

@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/keymaps/rc-dib0700-nec.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-dib0700-nec.ko drivers/media/rc/keymaps/rc-dib0700-nec.o drivers/media/rc/keymaps/rc-dib0700-nec.mod.o

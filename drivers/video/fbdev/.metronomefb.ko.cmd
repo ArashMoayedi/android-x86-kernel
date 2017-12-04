@@ -1,1 +1,0 @@
-cmd_drivers/video/fbdev/metronomefb.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/fbdev/metronomefb.ko drivers/video/fbdev/metronomefb.o drivers/video/fbdev/metronomefb.mod.o

@@ -1,1 +1,0 @@
-cmd_drivers/staging/iio/accel/adis16204.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/iio/accel/adis16204.ko drivers/staging/iio/accel/adis16204.o drivers/staging/iio/accel/adis16204.mod.o

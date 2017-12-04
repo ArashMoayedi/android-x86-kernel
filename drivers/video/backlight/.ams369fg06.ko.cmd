@@ -1,1 +1,0 @@
-cmd_drivers/video/backlight/ams369fg06.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/backlight/ams369fg06.ko drivers/video/backlight/ams369fg06.o drivers/video/backlight/ams369fg06.mod.o

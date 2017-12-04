@@ -1,1 +1,0 @@
-cmd_sound/drivers/opl3/snd-opl3-lib.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o sound/drivers/opl3/snd-opl3-lib.ko sound/drivers/opl3/snd-opl3-lib.o sound/drivers/opl3/snd-opl3-lib.mod.o

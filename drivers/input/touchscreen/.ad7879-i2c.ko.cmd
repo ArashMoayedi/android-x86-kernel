@@ -1,1 +1,0 @@
-cmd_drivers/input/touchscreen/ad7879-i2c.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/touchscreen/ad7879-i2c.ko drivers/input/touchscreen/ad7879-i2c.o drivers/input/touchscreen/ad7879-i2c.mod.o

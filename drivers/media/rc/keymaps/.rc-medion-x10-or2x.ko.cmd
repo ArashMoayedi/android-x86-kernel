@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/keymaps/rc-medion-x10-or2x.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-medion-x10-or2x.ko drivers/media/rc/keymaps/rc-medion-x10-or2x.o drivers/media/rc/keymaps/rc-medion-x10-or2x.mod.o

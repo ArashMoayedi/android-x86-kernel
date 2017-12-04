@@ -1,1 +1,0 @@
-cmd_drivers/input/touchscreen/bu21013_ts.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/touchscreen/bu21013_ts.ko drivers/input/touchscreen/bu21013_ts.o drivers/input/touchscreen/bu21013_ts.mod.o

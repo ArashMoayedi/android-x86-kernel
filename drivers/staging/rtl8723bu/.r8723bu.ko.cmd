@@ -1,1 +1,0 @@
-cmd_drivers/staging/rtl8723bu/r8723bu.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/rtl8723bu/r8723bu.ko drivers/staging/rtl8723bu/r8723bu.o drivers/staging/rtl8723bu/r8723bu.mod.o

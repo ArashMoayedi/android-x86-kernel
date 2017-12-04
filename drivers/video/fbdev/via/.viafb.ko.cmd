@@ -1,1 +1,0 @@
-cmd_drivers/video/fbdev/via/viafb.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/fbdev/via/viafb.ko drivers/video/fbdev/via/viafb.o drivers/video/fbdev/via/viafb.mod.o

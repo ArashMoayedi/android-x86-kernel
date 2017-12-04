@@ -1,1 +1,0 @@
-cmd_drivers/media/pci/ttpci/budget.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/pci/ttpci/budget.ko drivers/media/pci/ttpci/budget.o drivers/media/pci/ttpci/budget.mod.o

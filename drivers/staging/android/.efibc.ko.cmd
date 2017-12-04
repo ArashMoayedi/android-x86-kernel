@@ -1,1 +1,0 @@
-cmd_drivers/staging/android/efibc.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/android/efibc.ko drivers/staging/android/efibc.o drivers/staging/android/efibc.mod.o

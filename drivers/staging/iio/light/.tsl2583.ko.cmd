@@ -1,1 +1,0 @@
-cmd_drivers/staging/iio/light/tsl2583.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/iio/light/tsl2583.ko drivers/staging/iio/light/tsl2583.o drivers/staging/iio/light/tsl2583.mod.o

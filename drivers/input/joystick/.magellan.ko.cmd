@@ -1,1 +1,0 @@
-cmd_drivers/input/joystick/magellan.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/joystick/magellan.ko drivers/input/joystick/magellan.o drivers/input/joystick/magellan.mod.o

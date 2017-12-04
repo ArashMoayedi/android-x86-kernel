@@ -1,1 +1,0 @@
-cmd_drivers/video/fbdev/matrox/g450_pll.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/fbdev/matrox/g450_pll.ko drivers/video/fbdev/matrox/g450_pll.o drivers/video/fbdev/matrox/g450_pll.mod.o

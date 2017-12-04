@@ -1,1 +1,0 @@
-cmd_drivers/media/pci/cx88/cx88-dvb.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/pci/cx88/cx88-dvb.ko drivers/media/pci/cx88/cx88-dvb.o drivers/media/pci/cx88/cx88-dvb.mod.o

@@ -1,1 +1,0 @@
-cmd_drivers/input/gameport/emu10k1-gp.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/gameport/emu10k1-gp.ko drivers/input/gameport/emu10k1-gp.o drivers/input/gameport/emu10k1-gp.mod.o

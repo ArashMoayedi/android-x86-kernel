@@ -1,1 +1,0 @@
-cmd_drivers/video/fbdev/kyro/kyrofb.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/fbdev/kyro/kyrofb.ko drivers/video/fbdev/kyro/kyrofb.o drivers/video/fbdev/kyro/kyrofb.mod.o

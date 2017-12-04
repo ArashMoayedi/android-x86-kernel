@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/brcm80211/brcmsmac/brcmsmac.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/brcm80211/brcmsmac/brcmsmac.ko drivers/net/wireless/brcm80211/brcmsmac/brcmsmac.o drivers/net/wireless/brcm80211/brcmsmac/brcmsmac.mod.o

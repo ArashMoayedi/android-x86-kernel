@@ -1,1 +1,0 @@
-cmd_sound/soc/intel/baytrail/snd-soc-sst-baytrail-pcm.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o sound/soc/intel/baytrail/snd-soc-sst-baytrail-pcm.ko sound/soc/intel/baytrail/snd-soc-sst-baytrail-pcm.o sound/soc/intel/baytrail/snd-soc-sst-baytrail-pcm.mod.o

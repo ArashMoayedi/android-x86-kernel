@@ -1,1 +1,0 @@
-cmd_drivers/iio/pressure/ms5611_core.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/pressure/ms5611_core.ko drivers/iio/pressure/ms5611_core.o drivers/iio/pressure/ms5611_core.mod.o

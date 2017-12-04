@@ -1,1 +1,0 @@
-cmd_drivers/media/dvb-frontends/stb0899.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/stb0899.ko drivers/media/dvb-frontends/stb0899.o drivers/media/dvb-frontends/stb0899.mod.o

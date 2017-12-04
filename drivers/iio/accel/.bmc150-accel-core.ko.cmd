@@ -1,1 +1,0 @@
-cmd_drivers/iio/accel/bmc150-accel-core.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/accel/bmc150-accel-core.ko drivers/iio/accel/bmc150-accel-core.o drivers/iio/accel/bmc150-accel-core.mod.o

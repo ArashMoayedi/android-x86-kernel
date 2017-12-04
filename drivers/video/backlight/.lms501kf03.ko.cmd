@@ -1,1 +1,0 @@
-cmd_drivers/video/backlight/lms501kf03.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/backlight/lms501kf03.ko drivers/video/backlight/lms501kf03.o drivers/video/backlight/lms501kf03.mod.o

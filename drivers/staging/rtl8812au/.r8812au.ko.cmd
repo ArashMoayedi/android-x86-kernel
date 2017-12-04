@@ -1,1 +1,0 @@
-cmd_drivers/staging/rtl8812au/r8812au.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/rtl8812au/r8812au.ko drivers/staging/rtl8812au/r8812au.o drivers/staging/rtl8812au/r8812au.mod.o

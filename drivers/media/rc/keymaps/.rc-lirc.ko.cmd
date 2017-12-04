@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/keymaps/rc-lirc.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-lirc.ko drivers/media/rc/keymaps/rc-lirc.o drivers/media/rc/keymaps/rc-lirc.mod.o

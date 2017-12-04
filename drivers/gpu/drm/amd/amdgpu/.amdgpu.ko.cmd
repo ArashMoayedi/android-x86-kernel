@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/amd/amdgpu/amdgpu.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/gpu/drm/amd/amdgpu/amdgpu.ko drivers/gpu/drm/amd/amdgpu/amdgpu.o drivers/gpu/drm/amd/amdgpu/amdgpu.mod.o

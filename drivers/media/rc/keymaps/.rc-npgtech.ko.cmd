@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/keymaps/rc-npgtech.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-npgtech.ko drivers/media/rc/keymaps/rc-npgtech.o drivers/media/rc/keymaps/rc-npgtech.mod.o

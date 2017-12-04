@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/rt2x00/rt61pci.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/rt2x00/rt61pci.ko drivers/net/wireless/rt2x00/rt61pci.o drivers/net/wireless/rt2x00/rt61pci.mod.o

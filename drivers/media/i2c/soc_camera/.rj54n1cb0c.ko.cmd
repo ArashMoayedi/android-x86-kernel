@@ -1,1 +1,0 @@
-cmd_drivers/media/i2c/soc_camera/rj54n1cb0c.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/i2c/soc_camera/rj54n1cb0c.ko drivers/media/i2c/soc_camera/rj54n1cb0c.o drivers/media/i2c/soc_camera/rj54n1cb0c.mod.o

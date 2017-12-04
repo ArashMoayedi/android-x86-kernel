@@ -1,1 +1,0 @@
-cmd_drivers/hid/hid-roccat-common.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/hid/hid-roccat-common.ko drivers/hid/hid-roccat-common.o drivers/hid/hid-roccat-common.mod.o

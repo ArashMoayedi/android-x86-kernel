@@ -1,1 +1,0 @@
-cmd_drivers/video/backlight/bd6107.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/backlight/bd6107.ko drivers/video/backlight/bd6107.o drivers/video/backlight/bd6107.mod.o

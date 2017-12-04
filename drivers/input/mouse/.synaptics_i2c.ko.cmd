@@ -1,1 +1,0 @@
-cmd_drivers/input/mouse/synaptics_i2c.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/mouse/synaptics_i2c.ko drivers/input/mouse/synaptics_i2c.o drivers/input/mouse/synaptics_i2c.mod.o

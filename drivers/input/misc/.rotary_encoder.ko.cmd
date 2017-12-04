@@ -1,1 +1,0 @@
-cmd_drivers/input/misc/rotary_encoder.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/misc/rotary_encoder.ko drivers/input/misc/rotary_encoder.o drivers/input/misc/rotary_encoder.mod.o

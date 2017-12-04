@@ -1,1 +1,0 @@
-cmd_drivers/media/pci/cx25821/cx25821.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/pci/cx25821/cx25821.ko drivers/media/pci/cx25821/cx25821.o drivers/media/pci/cx25821/cx25821.mod.o

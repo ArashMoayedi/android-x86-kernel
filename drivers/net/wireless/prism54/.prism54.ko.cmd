@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/prism54/prism54.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/prism54/prism54.ko drivers/net/wireless/prism54/prism54.o drivers/net/wireless/prism54/prism54.mod.o

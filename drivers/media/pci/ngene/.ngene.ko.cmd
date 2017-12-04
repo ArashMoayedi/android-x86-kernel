@@ -1,1 +1,0 @@
-cmd_drivers/media/pci/ngene/ngene.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/pci/ngene/ngene.ko drivers/media/pci/ngene/ngene.o drivers/media/pci/ngene/ngene.mod.o

@@ -1,1 +1,0 @@
-cmd_drivers/pinctrl/pinctrl-single.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/pinctrl/pinctrl-single.ko drivers/pinctrl/pinctrl-single.o drivers/pinctrl/pinctrl-single.mod.o

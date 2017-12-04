@@ -1,1 +1,0 @@
-cmd_drivers/iio/temperature/tmp006.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/temperature/tmp006.ko drivers/iio/temperature/tmp006.o drivers/iio/temperature/tmp006.mod.o

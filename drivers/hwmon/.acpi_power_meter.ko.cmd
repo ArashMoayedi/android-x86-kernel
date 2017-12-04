@@ -1,1 +1,0 @@
-cmd_drivers/hwmon/acpi_power_meter.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/hwmon/acpi_power_meter.ko drivers/hwmon/acpi_power_meter.o drivers/hwmon/acpi_power_meter.mod.o

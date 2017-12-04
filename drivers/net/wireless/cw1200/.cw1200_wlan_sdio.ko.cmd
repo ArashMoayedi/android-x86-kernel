@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/cw1200/cw1200_wlan_sdio.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/cw1200/cw1200_wlan_sdio.ko drivers/net/wireless/cw1200/cw1200_wlan_sdio.o drivers/net/wireless/cw1200/cw1200_wlan_sdio.mod.o

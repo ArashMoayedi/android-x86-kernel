@@ -1,1 +1,0 @@
-cmd_drivers/video/backlight/ld9040.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/video/backlight/ld9040.ko drivers/video/backlight/ld9040.o drivers/video/backlight/ld9040.mod.o

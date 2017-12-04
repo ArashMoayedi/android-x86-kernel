@@ -1,1 +1,0 @@
-cmd_drivers/media/usb/dvb-usb/dvb-usb-m920x.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/dvb-usb/dvb-usb-m920x.ko drivers/media/usb/dvb-usb/dvb-usb-m920x.o drivers/media/usb/dvb-usb/dvb-usb-m920x.mod.o

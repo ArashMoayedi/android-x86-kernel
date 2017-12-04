@@ -1,1 +1,0 @@
-cmd_drivers/hwmon/dell-smm-hwmon.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/hwmon/dell-smm-hwmon.ko drivers/hwmon/dell-smm-hwmon.o drivers/hwmon/dell-smm-hwmon.mod.o

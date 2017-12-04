@@ -1,1 +1,0 @@
-cmd_drivers/memstick/host/jmb38x_ms.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/memstick/host/jmb38x_ms.ko drivers/memstick/host/jmb38x_ms.o drivers/memstick/host/jmb38x_ms.mod.o

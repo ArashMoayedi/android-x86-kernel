@@ -1,1 +1,0 @@
-cmd_drivers/iio/accel/hid-sensor-accel-3d.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/accel/hid-sensor-accel-3d.ko drivers/iio/accel/hid-sensor-accel-3d.o drivers/iio/accel/hid-sensor-accel-3d.mod.o

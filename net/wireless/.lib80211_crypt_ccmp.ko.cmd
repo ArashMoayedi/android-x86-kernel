@@ -1,1 +1,0 @@
-cmd_net/wireless/lib80211_crypt_ccmp.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o net/wireless/lib80211_crypt_ccmp.ko net/wireless/lib80211_crypt_ccmp.o net/wireless/lib80211_crypt_ccmp.mod.o

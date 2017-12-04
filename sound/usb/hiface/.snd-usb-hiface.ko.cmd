@@ -1,1 +1,0 @@
-cmd_sound/usb/hiface/snd-usb-hiface.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o sound/usb/hiface/snd-usb-hiface.ko sound/usb/hiface/snd-usb-hiface.o sound/usb/hiface/snd-usb-hiface.mod.o

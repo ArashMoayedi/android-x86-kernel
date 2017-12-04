@@ -1,1 +1,0 @@
-cmd_sound/soc/codecs/snd-soc-pcm1792a-codec.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o sound/soc/codecs/snd-soc-pcm1792a-codec.ko sound/soc/codecs/snd-soc-pcm1792a-codec.o sound/soc/codecs/snd-soc-pcm1792a-codec.mod.o

@@ -1,1 +1,0 @@
-cmd_drivers/media/dvb-frontends/sp887x.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/sp887x.ko drivers/media/dvb-frontends/sp887x.o drivers/media/dvb-frontends/sp887x.mod.o

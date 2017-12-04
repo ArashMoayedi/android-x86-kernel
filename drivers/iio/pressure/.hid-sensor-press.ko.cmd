@@ -1,1 +1,0 @@
-cmd_drivers/iio/pressure/hid-sensor-press.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/iio/pressure/hid-sensor-press.ko drivers/iio/pressure/hid-sensor-press.o drivers/iio/pressure/hid-sensor-press.mod.o

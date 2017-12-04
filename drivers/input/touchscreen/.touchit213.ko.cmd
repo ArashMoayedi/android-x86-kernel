@@ -1,1 +1,0 @@
-cmd_drivers/input/touchscreen/touchit213.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/touchscreen/touchit213.ko drivers/input/touchscreen/touchit213.o drivers/input/touchscreen/touchit213.mod.o

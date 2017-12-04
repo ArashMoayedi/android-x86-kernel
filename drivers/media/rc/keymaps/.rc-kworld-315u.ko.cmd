@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/keymaps/rc-kworld-315u.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-kworld-315u.ko drivers/media/rc/keymaps/rc-kworld-315u.o drivers/media/rc/keymaps/rc-kworld-315u.mod.o

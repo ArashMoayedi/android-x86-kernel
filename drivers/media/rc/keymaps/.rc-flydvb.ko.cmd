@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/keymaps/rc-flydvb.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-flydvb.ko drivers/media/rc/keymaps/rc-flydvb.o drivers/media/rc/keymaps/rc-flydvb.mod.o
